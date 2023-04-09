@@ -1,4 +1,4 @@
 TZ=Asia/Tokyo
 PATH="/usr/local/bin:$PATH"
 
-0 7 * * * cd /app/ && python research_helper/slack_paper_summary.py > /proc/1/fd/1 2>/proc/1/fd/2
+0 7 * * * cd /app/ && python paper_summary/main.py > /proc/1/fd/1 2>/proc/1/fd/2
