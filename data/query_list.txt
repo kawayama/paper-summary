@@ -1,0 +1,1 @@
+sns_fraud,(Twitter OR Telegram OR LINE OR Discord OR SNS) AND (abs:fraud OR abs:spam) AND security
